@@ -2,7 +2,7 @@
 這是結合openCV與機器學習的猜拳遊戲，透過鏡頭辨識玩家手勢，並使用隨機森林模型進行判斷與對戰。系統包含訓練與對戰兩階段，支援三種難度，提供即時互動與AI對戰體驗。
 # 需下載的東東
 * 下載
-```
+```bash
 !pip install opencv-python # 下載opencv
 !pip install numpy # 下載numpy
 !pip install scikit-learn # 下載sklearn
@@ -19,8 +19,15 @@
     ![螢幕擷取畫面 2025-04-30 004628](https://hackmd.io/_uploads/BJGnzY0ygx.png)
 
 * Mac 版：
-    * Command + space，繼續把下面的東西塞進去
-   *~~窩與不知道，沒錢買Macbook~~*
+    command + space 開啟 terminal
+  ![Screenshot 2025-08-16 at 23 29 14](https://github.com/user-attachments/assets/c832caeb-e180-4204-80aa-0608aa79a5cc)
+
+```bash
+!pip3 install opencv-python 
+!pip3 install numpy 
+!pip3 install scikit-learn 
+```
+  輸入
 # 往後可優化的東西
 沒有用DataBase，問就是怕爆
 所以現在是把東西全部塞在Ram裡面，所以一定要釋放資源
